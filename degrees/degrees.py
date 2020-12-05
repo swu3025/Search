@@ -118,7 +118,7 @@ def shortest_path(source, target):
                    
                     cells = []
             
-                    while child.parent is not None: #PROBLEM MIGHT BE HERE       
+                    while child.parent is not None:    
                         cells.append((child.action,child.state))
                         child = child.parent
 
