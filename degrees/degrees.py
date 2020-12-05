@@ -68,7 +68,6 @@ def main():
     target = person_id_for_name(input("Name: "))
     if target is None:
         sys.exit("Person not found.")
-    #print(list(neighbors_for_person(source))) #TRUE
     path = shortest_path(source, target)    
    
     if path is None:
