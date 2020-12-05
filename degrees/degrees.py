@@ -126,15 +126,7 @@ def shortest_path(source, target):
                     return cells
                 else:
                     stackFrontier.add(child)
-            
-
-    
-        
-
-
-   
-
-# MY CODE
+          
 def person_id_for_name(name):
     """
     Returns the IMDB id for a person's name,
@@ -160,7 +152,6 @@ def person_id_for_name(name):
     else:
         return person_ids[0]
 
-# MY CODE
 def neighbors_for_person(person_id):
     """
     Returns (movie_id, person_id) pairs for people
